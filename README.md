@@ -1,6 +1,6 @@
 # Desafio Titanic do Kaggle - Previsão de Sobrevivência dos Passageiros
 
-<img src=""/>
+<img src="titanic_nauf.png"/>
 
 ## Introdução
 Este repositório contém um script em Python que tem como objetivo prever a sobrevivência dos passageiros no Titanic, como parte do desafio Kaggle "Titanic: Machine Learning from Disaster". O script utiliza análise de dados, pré-processamento de dados e modelos de aprendizado de máquina para fazer previsões e, em seguida, cria um arquivo de submissão para o Kaggle.
@@ -16,6 +16,8 @@ Este repositório contém um script em Python que tem como objetivo prever a sob
 
 ## Análise de Dados
 - O script começa com a análise exploratória de dados usando a biblioteca sweetviz para obter insights sobre o conjunto de dados. A análise inclui visualização dos dados, suas estatísticas e muito mais. Os resultados são salvos em um relatório HTML.
+
+<img src="titanic_sv.png"/>
 
 ## Pré-processamento de Dados
 Após analisar os dados, várias etapas de pré-processamento são realizadas, incluindo:
@@ -38,6 +40,8 @@ Um modelo de Regressão Logística também é treinado nos dados de treinamento 
 ## Visualização
 - Matrizes de confusão são geradas para visualizar o desempenho de ambos os modelos. Gráficos de dispersão são usados para comparar os valores reais de sobrevivência com as previsões feitas pelos modelos.
 
+<img src="graf_titanic.png"/>
+
 ## Seleção do Modelo
 - Com base nas pontuações de precisão e visualizações, o modelo de Regressão Logística é selecionado, pois fornece melhores resultados neste cenário.
 
@@ -45,6 +49,9 @@ Um modelo de Regressão Logística também é treinado nos dados de treinamento 
 - O modelo selecionado é então usado para prever a sobrevivência nos dados de teste. As previsões são adicionadas ao conjunto de teste e um arquivo de submissão é criado no formato necessário para a submissão no Kaggle.
 
 ## Conclusão
-Este script demonstra o processo de análise de dados, pré-processamento e seleção de modelo para o desafio Titanic do Kaggle. Ao executar o script, você pode fazer previsões e enviar seus resultados para a competição Kaggle para ver como seu modelo se sai.
+
+<img src="titanic_final.png"/>
+
+- Este script demonstra o processo de análise de dados, pré-processamento e seleção de modelo para o desafio Titanic do Kaggle. Ao executar o script, você pode fazer previsões e enviar seus resultados para a competição Kaggle para ver como seu modelo se sai.
 
 Boa sorte com o seu desafio do Titanic no Kaggle!
